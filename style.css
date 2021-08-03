@@ -54,3 +54,10 @@ top: 70%;
 
 }
 
+#place-order {
+  position:relative;
+  bottom:30px;
+  height: 100px;
+  width: 30%;
+  
+}
