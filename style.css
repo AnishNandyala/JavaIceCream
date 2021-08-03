@@ -4,10 +4,7 @@
     margin-bottom: 10px;
 }
 .heading img {
-    float: center;
-    width: 160px;
-    height: 90px;
-    background: #555;
+    
 
 
   }
@@ -70,4 +67,8 @@ top: 70%;
   height: 100px;
   width: 30%;
   
+}
+
+.logo {
+  height: 300px;
 }
