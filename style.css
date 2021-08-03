@@ -27,3 +27,8 @@
     position: relative;
 }
 
+#place-order {
+  height: 200px;
+  width: 30%;
+  margin: 20px;
+}
