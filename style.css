@@ -14,7 +14,7 @@
         margin: 0;
         position: absolute;
         top: 50%;
- text-align: center;
+ 
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
       }
