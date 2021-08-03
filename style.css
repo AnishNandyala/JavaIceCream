@@ -10,11 +10,19 @@
 
 
   }
+  .slogan {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 20%;
+    color: #fff;
+  }
+
   .orderbutton {
         margin: 0;
-        position: absolute;
+        position: relative;
         top: 50%;
- text-align: center;
+        text-align: center;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
       }
