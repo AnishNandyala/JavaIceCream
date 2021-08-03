@@ -1,3 +1,4 @@
-document.getElementById("#place-order").onclick = function () {
-    location.href = "orderpage.html"
-}
+
+var placeOrder = document.getElementById("place-order");
+console.log(placeOrder);
+

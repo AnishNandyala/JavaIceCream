@@ -4,10 +4,7 @@
     margin-bottom: 10px;
 }
 .heading img {
-    float: center;
-    width: 160px;
-    height: 90px;
-    background: #555;
+    
 
 
   }
@@ -72,9 +69,13 @@ top: 70%;
   
 }
 
+
 .list {
     display: inline-block;
     padding: 10px;
     margin-top: 5px;
     
+
+.logo {
+  height: 300px;
 }
