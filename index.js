@@ -1,3 +1,4 @@
-document.getElementById("#place-order").onclick = function () {
-    location.href = "orderpage.html"
+if(document.getElementById('place-order').clicked == true)
+{
+   alert("button was clicked");
 }
