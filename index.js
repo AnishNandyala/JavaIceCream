@@ -1,4 +1,4 @@
-if(document.getElementById('place-order').clicked == true)
-{
-   alert("button was clicked");
-}
+
+var placeOrder = document.getElementById("place-order");
+console.log(placeOrder);
+
