@@ -4,7 +4,8 @@
     margin-bottom: 10px;
 }
 .heading img {
-    
+    height: 120px;
+    width: 150px;
 
 
   }
@@ -57,7 +58,7 @@
 .contact {
 text-align: center;
 position: relative;
-top: 70%;
+top: 40%;
 
 }
 
@@ -76,6 +77,3 @@ top: 70%;
     margin-top: 5px;
     
 
-.logo {
-  height: 300px;
-}
