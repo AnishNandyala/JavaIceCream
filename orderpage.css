@@ -1,8 +1,14 @@
 h1 {
-    color:lightblue;
+    color:#2A3DA0;
     text-align: center;
+    font-size: 50px;
+    padding: 40px;
+    margin:auto;
 }
 p {
     color: black;
-    height: 15px;
+    font-size:20px;
+}
+.icecreamIMG {
+    height:500px;
 }
