@@ -23,3 +23,13 @@ function showPicture () {
         }
     }
 }
+
+
+//review ur order page
+document.getElementById("review-order").addEventListener("click",function () {
+    console.log("Works");
+    location.href = "reviewpage.html";
+})
+var reviewOrder = document.getElementById("review-order");
+console.log(reviewOrder);
+
