@@ -6,47 +6,53 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="orderpage.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Paytone+One&family=Ultra&display=swap');
+        </style>
     
     
 </head>
 
-<h1><strong>★ Order Here! ★</strong></h1>
+<h1 style="font-family: 'Paytone One', sans-serif;"><strong>Order Ice Cream</strong></h1>
 <body style="background-color:#FFE9A0;">
         <div class="container">
         <div class="row">
             <div class="col">
-                <p>Pick your flavor!</p>
+                <div class = flavor>
+                <p class ="fandt">Pick your flavor!</p>
         
             <!-- Check boxes -->
-                <input type="radio" id="chocolate" name="flavor" value="chocolate">
+
+                <input type="radio" id="chocolate" name="flavor" value="chocolate_icecream.JPEG">
                 <label for="chocolate"> Chocolate</label><br>
-                <input type="radio" id="vanilla" name="flavor" value="vanilla">
+                <input type="radio" id="vanilla" name="flavor" value="vanilla_icecream.JPEG">
                 <label for="vanilla">Vanilla</label><br>
-                <input type="radio" id="strawberry" name="flavor" value="strawberry">
+                <input type="radio" id="strawberry" name="flavor" value="strawberry_icecream.JPEG">
                 <label for="strawberry">Strawberry</label><br>
 
-
-
-                <p>Pick your toppings!</p>
+                <div class = "topping">
+                <p class = "fandt">Pick your toppings!</p>
                 <input type="checkbox" id="m&m" name="m&m" value="m&m">
-                <label for="m">M&M's</label><br>
+                <label class = "inputfont" for="m">M&M's</label><br>
                 <input type="checkbox" id="sprinkles" name="sprinkles" value="sprinkles">
-                <label for="sprinkles">Sprinkles</label><br>
+                <label class = "inputfont" for="sprinkles">Sprinkles</label><br>
                 <input type="checkbox" id="chocsprinkles" name="chocsprinkles" value="chocsprinkles">
-                <label for="chocsprinkles">Chocolate Sprinkles</label><br>
+                <label class = "inputfont" for="chocsprinkles">Chocolate Sprinkles</label><br>
+                <button id = "show-me">Show me my order</button>
             </div>
+        </div>
             <div class="col">
-                <img src="onlycone.JPEG" alt="ordersofar" class="icecreamIMG">
+                <img id = "ice-cream-pic" src="onlycone.JPEG" alt="ordersofar" class="icecreamIMG">
             </div>
         </div>
         <div class="row text-center">
             <div class="col">
-                <button class="btn btn-success btn-lg " id="place-order">Review Your Order Here</button>
+                <button class="btn btn-success btn-lg " id="review-order">Review Your Order Here</button>
             </div>
            
         </div>
         </div>
-        <script src="./script.js"></script>
+        <script src="./order.js"></script>
     </body>
 
 </html>

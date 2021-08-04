@@ -5,8 +5,8 @@
 }
 
 .heading img {
-    height: 120px;
-    width: 150px;
+    height: 140px;
+    width: 170px;
 
 
   }
@@ -35,6 +35,9 @@
       top: 30%;
       font-size: 30px;
       font-family: 'Lobster', cursive;
+  }
+  .lobster {
+    font-family: 'Lobster', cursive; 
   }
   .div1{
     width: 100%;
