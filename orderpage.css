@@ -1,14 +1,32 @@
+
 h1 {
-    color:#2A3DA0;
+    color:#FFFAFA;
     text-align: center;
-    font-size: 50px;
-    padding: 40px;
+    font-size: 55px;
+    padding: 30px;
     margin:auto;
 }
 p {
-    color: black;
+    color: lightpink;
     font-size:20px;
 }
 .icecreamIMG {
     height:500px;
+}
+.inputfont {
+    font-family: 'Paytone One', sans-serif;
+}
+.fandt {
+    font-family: 'Ultra', serif;
+    font-size: 30px;
+}
+.flavor {
+    margin-top: 50px;
+    position: relative;
+    left: 20%;
+}
+.topping {
+    margin-top: 70px;
+    position: relative;
+    left: 20%;
 }

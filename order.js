@@ -18,3 +18,9 @@ function showPicture () {
         image.setAttribute("src", strawberryRB.value);
     }
 }
+/// button to get to order page
+
+
+
+
+/// button to get to review page
