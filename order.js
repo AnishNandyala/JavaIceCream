@@ -18,9 +18,10 @@ function showPicture () {
         image.setAttribute("src", strawberryRB.value);
     }
 }
-/// button to get to order page
-
-
-
-
 /// button to get to review page
+document.getElementById("review-order").addEventListener("click",function () {
+    console.log("Works");
+    location.href = "reviewpage.html";
+})
+var reviewOrder = document.getElementById("review-order");
+console.log(reviewOrder);
