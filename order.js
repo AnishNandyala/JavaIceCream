@@ -13,9 +13,8 @@ function showPicture () {
         image.setAttribute("src", strawberryRB.value);
     }
 }
-/// button to get to order page
 
+var mAndMCheckbox = document.getElementById("m&m");
+var sprinklesCheckbox = document.getElementById("sprinkles");
+var chocSprinklesCheckbox = document.getElementById("chocsprinkles");
 
-
-
-/// button to get to review page
