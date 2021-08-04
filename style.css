@@ -48,7 +48,7 @@
     position: relative;
     top: 30%;
     font-size: 30px;
-    font-family: 'Ariel', cursive;
+    /* font-family: 'Ariel', cursive; */
 }
 .div1{
   width: 100%;
@@ -62,10 +62,11 @@
     text-align: center;
     font-family: 'Anton', sans-serif;
 }
+
 .orderbutton {
     margin: 0;
     position: relative;
-    top: 40%;        text-align: center;
+    top: 30%;        text-align: center;
 
 
     -ms-transform: translateY(-50%);
@@ -74,8 +75,25 @@
 .contact {
 text-align: center;
 position: relative;
-top: 40%;
+top: 35%;
+font-style: normal;
+font-size: 20px;
 
+}
+.address {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 20px;
+}
+
+.number {
+    text-align: center;
+    position: relative;
+    top: 45%;
+    font-size: 20px;
+
+}
 }
 
 #place-order {
