@@ -27,14 +27,20 @@ p {
 .flavor {
     margin-top: 50px;
     position: relative;
-    left: 20%;
+    left: 0%;
 }
 .topping {
     margin-top: 20px;
     position: relative;
     left: 20%;
 }
-
+#csprinkle {
+    display: inline;
+}
 #show-me {
     margin-top:10px;
+}
+.moveleft {
+    position: relative;
+    left: 20%;
 }

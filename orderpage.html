@@ -18,28 +18,38 @@
         <div class="container">
         <div class="row">
             <div class="col">
+                <div class = "moveleft">
                 <div class = flavor>
                 <p class ="fandt">Pick your flavor!</p>
                 <input type="radio" id="chocolate" name="flavor" value="chocolate_icecream.JPEG">
-                <label class = "inputfont " for="chocolate"> Chocolate</label><br>
-
-                <label class = "inputfont" for="chocolate"> Chocolate ~ $3.00</label><br>
+                <label class = "inputfont " for="chocolate"> Chocolate ~ $3.00</label><br><br>
                 <input type="radio" id="vanilla" name="flavor" value="vanilla_icecream.JPEG">
-                <label class = "inputfont" for="vanilla">Vanilla ~ $3.00</label><br>
+                <label class = "inputfont" for="vanilla">Vanilla ~ $3.00</label><br><br>
                 <input type="radio" id="strawberry" name="flavor" value="strawberry_icecream.JPEG">
-                <label class = "inputfont" for="strawberry">Strawberry ~ $3.00</label><br>
+                <label class = "inputfont" for="strawberry">Strawberry ~ $3.00</label><br><br>
                 </div>
-                <div class = "topping">
+                <div class = "csprinkle">
                     <p class = "fandt">Pick your toppings!</p>
+                    <div class ="mandm">
                     <input type="checkbox" id="m&m" name="m&m" value="m&m">
-                    <label class = "inputfont" for="m">M&M's ~ $1.50 </label><br>
+                    <img src = "images/m&ms.jpg" width="40px" height = "40px">
+
+                    <label class = "inputfont" for="m">M&M's ~ $1.50 </label><br><br>
+                    </div>
+
+                    <div class ="csprinkle">
                     <input type="checkbox" id="sprinkles" name="sprinkles" value="sprinkles">
-                    <label class = "inputfont" for="sprinkles">Sprinkles ~ $1.50 </label><br>
+                    <img src = "images/sprinkles.jpg" width="40px" height = "40px">
+
+                    <label class = "inputfont" for="sprinkles">Sprinkles ~ $1.50 </label><br><br>
+                    </div>
+
+                    <div  id = "csprinkle">
                     <input type="checkbox" id="chocsprinkles" name="chocsprinkles" value="chocsprinkles">
-
-                    
-
+                    <img src = "images/csprinkles.jpg" width="40px" height = "40px">
                     <label class = "inputfont" for="chocsprinkles">Chocolate Sprinkles ~ $1.50 </label><br>
+                </div>
+                </div>
                     <button type="button" class="btn btn-danger btn-small" id = "show-me">Show me my Order</button>
 
                 </div>
