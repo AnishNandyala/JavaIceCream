@@ -17,4 +17,3 @@ function showPicture () {
 var mAndMCheckbox = document.getElementById("m&m");
 var sprinklesCheckbox = document.getElementById("sprinkles");
 var chocSprinklesCheckbox = document.getElementById("chocsprinkles");
-
