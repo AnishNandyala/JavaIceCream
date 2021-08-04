@@ -3,11 +3,14 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
 .heading img {
-    
+    height: 120px;
+    width: 150px;
 
 
   }
+
 .title {
     font-size: 60px;
     font-family: 'Anton', sans-serif;
@@ -57,7 +60,7 @@
 .contact {
 text-align: center;
 position: relative;
-top: 70%;
+top: 40%;
 
 }
 
@@ -69,6 +72,11 @@ top: 70%;
   
 }
 
-.logo {
-  height: 300px;
-}
+
+.list {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+
+    
+
