@@ -36,6 +36,9 @@
       font-size: 30px;
       font-family: 'Lobster', cursive;
   }
+  .lobster {
+    font-family: 'Lobster', cursive; 
+  }
   .div1{
     width: 100%;
     height: 120vh;
@@ -45,7 +48,7 @@
     position: relative;
     top: 30%;
     font-size: 30px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Ariel', cursive;
 }
 .div1{
   width: 100%;
