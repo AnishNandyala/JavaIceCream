@@ -1,9 +1,4 @@
-// document.getElementById("place-order").addEventListener("click",function () {
-//     console.log("Works");
-//     location.href = "orderpage.html";
-// })
-// var placeOrder = document.getElementById("place-order");
-// console.log(placeOrder);
+
 var chocolateRB = document.getElementById("chocolate");
 var vanillaRB = document.getElementById("vanilla");
 var strawberryRB = document.getElementById("strawberry");
