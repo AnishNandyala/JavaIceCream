@@ -13,10 +13,7 @@ function showPicture () {
         image.setAttribute("src", strawberryRB.value);
     }
 }
-/// button to get to review page
-document.getElementById("review-order").addEventListener("click",function () {
-    console.log("Works");
-    location.href = "reviewpage.html";
-})
-var reviewOrder = document.getElementById("review-order");
-console.log(reviewOrder);
+
+var mAndMCheckbox = document.getElementById("m&m");
+var sprinklesCheckbox = document.getElementById("sprinkles");
+var chocSprinklesCheckbox = document.getElementById("chocsprinkles");

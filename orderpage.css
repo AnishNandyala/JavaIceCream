@@ -30,7 +30,11 @@ p {
     left: 20%;
 }
 .topping {
-    margin-top: 70px;
+    margin-top: 20px;
     position: relative;
     left: 20%;
+}
+
+#show-me {
+    margin-top:10px;
 }
