@@ -7,13 +7,14 @@ var MandMCheckbox = document.getElementById("m&m");
 var sprinklesCheckbox = document.getElementById("sprinkles");
 var chocSprinklesCheckbox = document.getElementById("chocsprinkles");
 var countToppings = 0;
-var flavor = document.getElementById("flavor");
-var price = document.getElementById("price");
+var flavor;
+var price;
 document.getElementById("show-me").addEventListener("click", showPicture, false);
 function showPicture () {
     if (chocolateRB.checked) {
         image.setAttribute("src", chocolateRB.value);
         countToppings = 0;
+        flavor = "Chocolate";
         if (MandMCheckbox.checked && sprinklesCheckbox.checked && chocSprinklesCheckbox.checked) {
             //all toppings
             image.setAttribute("src", "icecreamvariations-chocolate/chocolate_icecream--alltoppings.png");
@@ -46,6 +47,7 @@ function showPicture () {
     } else if (vanillaRB.checked) {
         image.setAttribute("src", vanillaRB.value);
         countToppings = 0;
+        flavor = "Vanilla";
         if (MandMCheckbox.checked && sprinklesCheckbox.checked && chocSprinklesCheckbox.checked) {
             //all toppings
             image.setAttribute("src", "icecreamvariations-vanilla/vanilla_icecream--alltoppings.png");
@@ -78,6 +80,7 @@ function showPicture () {
     } else if (strawberryRB.checked) {
         image.setAttribute("src", strawberryRB.value);
         countToppings = 0;
+        flavor = "Strawberry";
         if (MandMCheckbox.checked && sprinklesCheckbox.checked && chocSprinklesCheckbox.checked) {
             //all toppings
             image.setAttribute("src", "icecreamvariations-strawberry/strawberry_icecream--alltoppings.png");
@@ -113,8 +116,9 @@ function showPicture () {
 
 //review ur order page
 document.getElementById("review-order").addEventListener("click",function () {
-    console.log("Works");
-    location.href = "reviewpage.html";
+    document.getElementById("Flavor").innerHTML = flavor;
+    document.getElementById("Toppings").innerHTML = countToppings;
+    document.getElementById("price").innerHTML = "$" + (3 + (countToppings * 1.5));
 })
 var reviewOrder = document.getElementById("review-order");
 console.log(reviewOrder);
