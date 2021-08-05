@@ -9,6 +9,7 @@ var chocSprinklesCheckbox = document.getElementById("chocsprinkles");
 var countToppings = 0;
 var flavor;
 var price;
+var tempPrice;
 document.getElementById("show-me").addEventListener("click", showPicture, false);
 function showPicture () {
     if (chocolateRB.checked) {
@@ -95,7 +96,7 @@ function showPicture () {
             countToppings = 2;
         } else if (sprinklesCheckbox.checked && chocSprinklesCheckbox.checked) {
             //sprinkles and chocolate sprinkles
-            image.setAttribute("src", "icecreamvariations-strawberry/strawberry_icecream--sprinkles+chocsprinkles.png");
+            image.setAttribute("src", "icecreamvariations-strawberry/strawberry_icecream--sprinkles+chocolatesprinkles.png");
             countToppings = 2;
         } else if (MandMCheckbox.checked) {
             //m&ms
@@ -118,8 +119,11 @@ function showPicture () {
 document.getElementById("review-order").addEventListener("click",function () {
     document.getElementById("Flavor").innerHTML = flavor;
     document.getElementById("Toppings").innerHTML = countToppings;
-    document.getElementById("price").innerHTML = "$" + (3 + (countToppings * 1.5));
+    tempPrice = (3 + (countToppings * 1.5));
+    if (tempPrice - 3 == 1.5 || tempPrice - 3 == 4.5) {
+        document.getElementById("price").innerHTML = "$" + tempPrice + "0";
+    } else if (tempPrice - 3 == 0 || tempPrice -3 == 3) {
+        document.getElementById("price").innerHTML = "$" + tempPrice + ".00";
+    }
 })
-var reviewOrder = document.getElementById("review-order");
-console.log(reviewOrder);
 
