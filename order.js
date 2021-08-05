@@ -2,6 +2,7 @@
 var chocolateRB = document.getElementById("chocolate");
 var vanillaRB = document.getElementById("vanilla");
 var strawberryRB = document.getElementById("strawberry");
+var pistachioRB = document.getElementById("pistachio");
 var image = document.getElementById("ice-cream-pic");
 var MandMCheckbox = document.getElementById("m&m");
 var sprinklesCheckbox = document.getElementById("sprinkles");
@@ -109,6 +110,39 @@ function showPicture () {
         } else if (chocSprinklesCheckbox.checked) {
             //chocolate sprinkles
             image.setAttribute("src", "icecreamvariations-strawberry/strawberry_icecream--chocsprinkles.png");
+            countToppings = 1;
+        }
+    } else if (pistachioRB.checked) {
+        image.setAttribute("src", pistachioRB.value);
+        countToppings = 0;
+        flavor = "Pistachio";
+        if (MandMCheckbox.checked && sprinklesCheckbox.checked && chocSprinklesCheckbox.checked) {
+            //all toppings
+            image.setAttribute("src", "icecreamvariations-pistachio/pistachio_icecream--alltoppings.png");
+            countToppings = 3;
+        } else if (MandMCheckbox.checked && sprinklesCheckbox.checked) {
+            //m&ms and sprinkles
+            image.setAttribute("src", "icecreamvariations-pistachio/pistachio_icecream--m&m+sprinkles.png");
+            countToppings = 2;
+        } else if (MandMCheckbox.checked && chocSprinklesCheckbox.checked) {
+            //m&ms and sprinkles
+            image.setAttribute("src", "icecreamvariations-pistachio/pistachio_icecream--m&m+chocsprinkles.png");
+            countToppings = 2;
+        } else if (sprinklesCheckbox.checked && chocSprinklesCheckbox.checked) {
+            //sprinkles and chocolate sprinkles
+            image.setAttribute("src", "icecreamvariations-pistachio/pistachio_icecream--sprinkles+chocsprinkles.png");
+            countToppings = 2;
+        } else if (MandMCheckbox.checked) {
+            //m&ms
+            image.setAttribute("src", "icecreamvariations-pistachio/pistachio_icecream--m&m.png");
+            countToppings = 1;
+        } else if (sprinklesCheckbox.checked) {
+            //sprinkles
+            image.setAttribute("src", "icecreamvariations-pistachio/pistachio_icecream--sprinkles.png");
+            countToppings = 1;
+        } else if (chocSprinklesCheckbox.checked) {
+            //chocolate sprinkles
+            image.setAttribute("src", "icecreamvariations-pistachio/pistachio_icecream--chocsprinkles.png");
             countToppings = 1;
         }
     }
