@@ -6,6 +6,9 @@ var image = document.getElementById("ice-cream-pic");
 var MandMCheckbox = document.getElementById("m&m");
 var sprinklesCheckbox = document.getElementById("sprinkles");
 var chocSprinklesCheckbox = document.getElementById("chocsprinkles");
+var countToppings = 0;
+var flavor = document.getElementById("flavor");
+var price = document.getElementById("price");
 document.getElementById("show-me").addEventListener("click", showPicture, false);
 function showPicture () {
     if (chocolateRB.checked) {
